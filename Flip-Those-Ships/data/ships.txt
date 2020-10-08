@@ -344,8 +344,8 @@ ship "Natiavael"
 	gun 40.5 -121.5 "Particle Cannon"
 	turret -28.5 -54 "Quad Blaster Turret"
 	turret 28.5 -54 "Quad Blaster Turret"
-	turret 28.5 -33.5 "Anti-Missile Turret"
 	turret -28.5 -33.5 "Quad Blaster Turret"
+	turret 28.5 -33.5 "Anti-Missile Turret"
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -401,3 +401,46 @@ ship "Elvis"
 	explode "small explosion" 16
 	"final explode" "final explosion small"
 	description `Alright, who messed up the blueprints?`
+
+ship "Rivvel"
+	sprite "ship/rivvel"
+	thumbnail "thumbnail/rivvel_thumb"
+	attributes
+		category "Transport"
+		"cost" 180000
+		"shields" 1400
+		"hull" 200
+		"required crew" 1
+		"bunks" 3
+		"mass" 40
+		"drag" 1.0
+		"heat dissipation" .9
+		"fuel capacity" 500
+		"cargo space" 5
+		"outfit space" 130
+		"weapon capacity" 25
+		"engine capacity" 45
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"A120 Atomic Thruster"
+		"X1200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -5 34
+	engine 5 34
+	gun -16 -34.5
+	gun 16 -34.5
+	leak "leak" 60 50
+	explode "tiny explosion" 10
+	explode "small explosion" 10

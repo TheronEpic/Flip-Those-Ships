@@ -19,6 +19,7 @@ shipyard "Betelgeuse Advanced"
 
 shipyard "Luxury Ships"
 	"Nachlof"
+	"Rivvel"
 
 shipyard "Megaparsec Basics"
 	"Elvis"
