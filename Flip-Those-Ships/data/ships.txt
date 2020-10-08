@@ -223,9 +223,9 @@ ship "Nachlof"
 	engine -15.5 176
 	engine 15.5 176
 	gun -13.5 -178.5 "Plasma Cannon"
-	gun -13.5 -178.5 "Plasma Cannon"
+	gun 13.5 -178.5 "Plasma Cannon"
 	gun -34.5 -167.5 "Torpedo Launcher"
-	gun -34.5 -167.5 "Torpedo Launcher"
+	gun 34.5 -167.5 "Torpedo Launcher"
 	turret -62.5 -131.5 "Quad Blaster Turret"
 	turret 62.5 -131.5 "Quad Blaster Turret"
 	turret -16 -44.5 "Heavy Anti-Missile Turret"
