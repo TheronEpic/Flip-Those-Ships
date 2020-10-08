@@ -444,3 +444,57 @@ ship "Rivvel"
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 10
+
+
+ship "Atnam"
+	sprite "ship/atnam"
+	thumbnail "thumbnail/atnam_thumb"
+	attributes
+		category "Medium Warship"
+		"cost" 3400000
+		"shields" 5900
+		"hull" 1500
+		"required crew" 6
+		"bunks" 10
+		"mass" 170
+		"drag" 4.7
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 20
+		"outfit space" 350
+		"weapon capacity" 140
+		"engine capacity" 100
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Particle Cannon" 4
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 75
+		"Meteor Missile Box"
+		
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D14-RN Shield Generator"
+		"Laser Rifle"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -34.5 32
+	engine 34.5 32
+	gun -19.5 -33.5 "Particle Cannon"
+	gun 19.5 -33.5 "Particle Cannon"
+	gun -27 -32.5 "Particle Cannon"
+	gun 27 -32.5 "Particle Cannon"
+	gun -68.5 11.5 "Meteor Missile Launcher"
+	gun 68.5 11.5 "Meteor Missile Launcher"
+	leak "leak" 60 50
+	leak "flame" 40 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"

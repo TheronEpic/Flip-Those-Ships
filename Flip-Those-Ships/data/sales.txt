@@ -23,3 +23,6 @@ shipyard "Luxury Ships"
 
 shipyard "Megaparsec Basics"
 	"Elvis"
+
+shipyard "Megaparsec Advanced"
+	"Atnam"
