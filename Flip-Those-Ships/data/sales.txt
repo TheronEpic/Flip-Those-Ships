@@ -1,0 +1,24 @@
+shipyard human
+	"Yrgosera"
+	"Nachlof"
+	"Derib Erva"
+	"Natiavael"
+	"Elvis"
+
+shipyard "Tarazed Advanced"
+	"Nachlof"
+
+shipyard "Southbound Basics"
+	"Yrgosera"
+
+shipyard "Betelgeuse Basics"
+	"Derib Erva"
+
+shipyard "Betelgeuse Advanced"
+	"Natiavael"
+
+shipyard "Luxury Ships"
+	"Nachlof"
+
+shipyard "Megaparsec Basics"
+	"Elvis"
