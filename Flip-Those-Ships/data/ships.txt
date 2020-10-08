@@ -393,8 +393,8 @@ ship "Elvis"
 		
 	gun -15 -52.5 "Particle Cannon"
 	gun 15 -52.5 "Particle Cannon"
-	engine -6.5 53
-	engine 6.5 53
+	engine -6.5 53 0.6
+	engine 6.5 53 0.6
 	engine 0 20 0.6
 	leak "leak" 50 50
 	explode "tiny explosion" 12
